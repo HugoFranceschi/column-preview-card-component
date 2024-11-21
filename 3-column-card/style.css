@@ -1,0 +1,86 @@
+@media screen and (max-width: 500px) {
+	.page {
+		display: flex;
+		flex-direction: column;
+	}
+	button {
+		width: 20%;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	button {
+		width: 94%;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	button {
+		width: 40%;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+.page {
+	display: flex;
+}
+
+.esp {
+	padding: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.orange {
+	background-color: rgba(226, 134, 37, 1);
+}
+
+.bleu {
+	background-color: rgba(0, 105, 113, 1);
+}
+
+.bleu-foncé {
+	background-color: rgba(0, 65, 64, 1);
+}
+
+.blanc {
+	color: white;
+}
+
+.blanc p {
+	font-weight: 100;
+}
+
+.blanc h1 {
+	font-weight: 900;
+}
+
+button {
+	background-color: white;
+	border-radius: 25px;
+	border: solid 1px white;
+	padding: 10px;
+}
+
+.ora {
+	color: rgba(226, 134, 37, 1);
+}
+
+.ble {
+	color: rgba(0, 105, 113, 1);
+}
+
+.ble-fon {
+	color: rgba(0, 65, 64, 1);
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+}
